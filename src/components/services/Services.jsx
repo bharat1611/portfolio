@@ -1,6 +1,5 @@
 import React from 'react'
 import './services.css'
-import logo1 from '../../assests/aptcoder.png'
 import {AiOutlineRightCircle} from 'react-icons/ai'
 
 
@@ -11,11 +10,13 @@ const Services = () => {
         <h5>What I have done</h5>
         <h2>Experience</h2>
 
+        {/* Aptcoder heading */}
         <div className="container services__container">
           <article className = "service">
             <div className = "service__head">
               <h3>Technical Content Dev At APTCoder</h3>
-              <img src = {logo1} className = 'logo1' href = "https://aptcoder.com/"></img>
+              <h5>Feb 2023-Present</h5>
+
             </div>
             <ul className = "service__list">
               <li>
@@ -36,13 +37,16 @@ const Services = () => {
               </li>
             </ul>
           </article>
-          {/* heading 1 end */}
+          {/*  aptcoder end */}
 
 
+          {/* Data Science intern */}
           <article className = "service">
             <div className = "service__head">
-              <h3>Heading 2</h3>
+              <h3>Data Science Intern At GEU</h3>
+              <h5>Aug 2023 - Present</h5>
             </div>
+
             <ul className = "service__list">
               <li>
                 <AiOutlineRightCircle className = 'service__list-icon'/>
@@ -62,6 +66,7 @@ const Services = () => {
               </li>
             </ul>
           </article>
+          {/* data science end */}
 
 
         </div>

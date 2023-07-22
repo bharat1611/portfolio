@@ -1,8 +1,9 @@
 
 .logo1{
-    height: 100px;
-    width:100px;
-    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: auto;
 }
 
 .services__container{
@@ -36,6 +37,11 @@
 .service__head h3{
     color: var(--color-bg);
     font-size: 1rem;
+    text-align: center;
+}
+.service__head h5{
+    color: var(--color-bg);
+    font-size: .8rem;
     text-align: center;
 }
 
