@@ -21,7 +21,9 @@ const About = () => {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum nostrum nisi, aliquam dolorem, possimus ea suscipit optio quisquam dolore quod cupiditate molestiae earum repellat doloremque non fugit cum eligendi atque!
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, rem tenetur! Accusamus nobis harum voluptatum error saepe perspiciatis eos consectetur animi provident labore facere magni, doloremque ex exercitationem, officiis veniam?
           </p>
+          <div className = "button_contact">
           <a href="#contact" className= 'btn btn-primary'>Contact Me</a>
+          </div>
         </div>
       </div>
     </section>
