@@ -12,10 +12,10 @@
 }
 
 :root {
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-bg: #040304ef;
+    --color-bg-variant: #2f2f2fc0;
+    --color-primary: #ffffff;
+    --color-primary-variant: rgba(255, 255, 255, 0.986);
     --color-white:#fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
@@ -27,6 +27,7 @@
 
 html{
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 ::-webkit-scrollbar{
@@ -37,13 +38,15 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(./assests/bg-texture.png)
+    background-image: url(./assests/bg-texture.png);
+    height: 100%;
 }
 
 
 .container{
     width: var(--container-width-lg);
     margin: 0 auto;
+    height: 100%;
 }
 
 h1, h2, h3, h4, h5{
@@ -77,7 +80,8 @@ a{
 }
 
 a:hover{
-    color:var(--color-white);
+    color:var(--color-primary);
+    background: var(--color-bg-variant);
 }
 
 .btn{
@@ -119,12 +123,13 @@ img {
     }
 }
 
+
 /* <--Mobiles--> */
 @media  screen and (max-width: 600px) {
     .container{
         width: var(--container-width-sm);
     }
     section > h2{
-        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 }

@@ -1,7 +1,7 @@
 header{
-    height:100vh;
-    padding-top: 7rem;
+    height: 100vh;
     overflow: hidden;
+    padding-top: 7rem;
 }
 
 .header__container{
@@ -31,20 +31,28 @@ header{
     bottom: 3rem;
 
 }
+.header__socials::after{
+    content : '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+
+}
+
 
 /* ME */
 .me{
     background: linear-gradient(var(--color-primary), transparent);
-    width: 300px;
-    height: 300px;
+    width: 21rem;
+    height: 21rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-left: 2rem;
     margin-top: 4rem;
-    border-radius: 50%;
+    border-radius: 12rem 12rem 12rem 12rem;
     overflow: hidden;
-
 }
+
+
 
 /* Scroll Down */
 .scroll__down{
@@ -56,23 +64,31 @@ header{
     font-size: 0.9rem;
 }
 
+
 /* <--Tablets--> */
 @media  screen and (max-width: 1024px) {
     header{
-        height: 68vh;
+        height: 80vh;
+        bottom:0;
+        overflow:scroll;
     }
-
 }
-
 
 /* <--Mobiles--> */
 @media  screen and (max-width: 600px) {
+
     header{
         height: 100vh;
     }
     .header__socials, .scroll__down{
         display:none;
-
     }
+}
 
+
+@media  screen and (max-width: 376px) {
+
+    header{
+        height: 120vh;
+    }
 }

@@ -46,13 +46,14 @@
         margin: 2rem auto 4rem;
     }
     .about__content p{
-        margin: 1rem 0 1.5reml
+        margin: 1rem 0 1.5rem;
     }
 }
 
 
 /* <--Mobiles--> */
 @media  screen and (max-width: 600px) {
+    
     .about__me{
         width: 65%;
         margin: 0 auto 3rem;

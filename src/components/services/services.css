@@ -28,7 +28,7 @@
 }
 
 .service__head{
-    background: var(--color-primary);
+    background: rgba(224, 224, 224, 0.519);
     padding: 2rem;
     border-radius: 0 0 2rem 2rem;
     box-shadow: 0 2rem 1 rem rgba(0, 0, 0, 0.1);

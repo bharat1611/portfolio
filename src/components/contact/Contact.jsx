@@ -34,8 +34,8 @@ const Contact = () => {
 
         <article className = "contact_option">
           <BsGithub className = "contact__option-icon"/>
-          <a rel = 'www.github.com/bharat1611'><h4>Github</h4></a>
-          <a href = "www.github.com/bharat1611">
+          <a rel = 'https://github.com/bharat1611'><h4>Github</h4></a>
+          <a href = "https://github.com/bharat1611">
           www.github.com/bharat1611/</a>
         </article>
 

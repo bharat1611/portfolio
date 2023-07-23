@@ -17,9 +17,9 @@ const About = () => {
         </div>
         <div className='about_content'>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aliquam pariatur explicabo nulla quia, dignissimos id hic mollitia officiis animi quo provident quos sint quisquam corporis eveniet asperiores consequuntur dolores!
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum nostrum nisi, aliquam dolorem, possimus ea suscipit optio quisquam dolore quod cupiditate molestiae earum repellat doloremque non fugit cum eligendi atque!
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, rem tenetur! Accusamus nobis harum voluptatum error saepe perspiciatis eos consectetur animi provident labore facere magni, doloremque ex exercitationem, officiis veniam?
+          I am a passionate fourth-year Computer Science Engineering student at Graphic Era(Deemed) University with a profound enthusiasm for solving real-world challenges through technology. My expertise spans a wide range of cutting-edge frameworks, including React, TensorFlow, Keras, NLP (Natural Language Processing), and deep learning. These frameworks, along with Pytorch and OpenCV, have allowed me to delve into the exciting world of machine learning and artificial intelligence, empowering me to tackle complex challenges with data-driven solutions. In addition to my strong technical skills, I hold certifications as an AWS Certified Cloud Practitioner and Solutions Architect. Demonstrating excellence in various subjects, I have maintained an outstanding record throughout my academic journey.<br></br>
+          As I present my portfolio, I am excited to share my projects, experiences, and the impact of my work in various domains. Collaborating with like-minded individuals and organizations on innovative ventures is something I eagerly look forward to. Let's create something amazing together!
+
           </p>
           <div className = "button_contact">
           <a href="#contact" className= 'btn btn-primary'>Contact Me</a>
