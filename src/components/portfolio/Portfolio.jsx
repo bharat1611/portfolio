@@ -30,7 +30,7 @@ const Portfolio = () => {
           </div>
           <h3>Netflix Clone</h3>
           <div className="portfolio__item-cta"><a href='https://github.com/bharat1611/Netflix-Clone' className='btn'>Github</a></div>
-          <p>Utilized ReactJS, Firebase and API's to create a web application that emulates the design, responsiveness and functionality of the popular streaming service, Netflix.</p>
+          <p>Utilized ReactJS, Firebase and APIs to create a web application that emulates the design, responsiveness and functionality of the popular streaming service, Netflix.</p>
         </article>
 
         <article className='portfolio__item'>
@@ -39,7 +39,7 @@ const Portfolio = () => {
           </div>
           <h3>Artificially Intelligent Chatbot using NLP</h3>
           <div className="portfolio__item-cta"><a href='https://github.com/bharat1611/AI_Chatbot-NLP_DeepLearning' className='btn'>Github</a></div>
-          <p>Using Pytorch, NLP, NNN and deep learning, this chatbot automates respones to help treat social anxiety and depression.</p>
+          <p>Using Pytorch, NLP, NNN and deep learning, this chatbot automates responses to help treat social anxiety and depression.</p>
         </article>
 
         <article className='portfolio__item'>
