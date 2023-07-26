@@ -14,7 +14,7 @@ const footer = () => {
         <li><a href ="#services">Services</a></li>
         <li><a href ="#portfolio">Portfolio</a></li>
         {/* <li><a href ="#testimonials"/>Testimonials</li> */}
-        <li><a href ="#contact">Conatact</a></li>
+        <li><a href ="#contact">Contact</a></li>
       </ul>
       <div className="footer__socials">
         <a href = "https://www.linkedin.com/in/bharat-upadhyay-05b939223/"><BsLinkedin/></a>

@@ -34,7 +34,7 @@
 }
 
 /* <--Tablets--> */
-@media  screen and (max-width: 1024px) {
+/* @media  screen and (max-width: 1024px) {
     .about__container{
         grid-template-columns: 1fr;
         gap:0;
@@ -45,14 +45,14 @@
         width: 50%;
         margin: 2rem auto 4rem;
     }
-    .about__content p{
+    .about_content p{
         margin: 1rem 0 1.5rem;
     }
-}
+} */
 
 
 /* <--Mobiles--> */
-@media  screen and (max-width: 600px) {
+/* @media  screen and (max-width: 600px) {
     
     .about__me{
         width: 65%;
@@ -68,5 +68,45 @@
     }
     .about_content p{
         margin: 1.5rem 0;
+    }
+} */
+
+/* ... Previous CSS ... */
+
+/* <--Tablets--> */
+@media screen and (max-width: 1024px) {
+    .about__container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about__me {
+        width: 65%; /* Use relative units instead of fixed pixel values */
+        margin: 0 auto 3rem;
+    }
+
+    .about_content p {
+        margin: 1.5rem 0;
+    }
+}
+
+/* <--Mobiles--> */
+@media screen and (max-width: 600px) {
+    .about__me {
+        width: 80%; /* Use relative units instead of fixed pixel values */
+        margin: 0 auto 3rem;
+    }
+
+    .about_content {
+        text-align: center;
+    }
+
+    .about_content p {
+        margin: 1.5rem 0;
+    }
+
+    /* Responsive Image */
+    .about__me-image img {
+        max-width: 100%;
     }
 }
