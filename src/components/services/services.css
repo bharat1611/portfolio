@@ -1,5 +1,65 @@
-
 .logo1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.services__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    align-items: stretch;
+}
+
+.service {
+    background: var(--color-bg-variant);
+    border-radius: 0.5rem 0.5rem 2rem 2rem;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.service__head{
+    text-align: center;
+    background: rgba(224, 224, 224, 0.519);
+    padding: 2rem;
+    border-radius: 0 0 1.5rem 1.5rem;
+    box-shadow: 0 2rem 1 rem rgba(0, 0, 0, 0.1);
+}
+
+.service__list {
+    padding: 1.5rem;
+    flex-grow: 1;
+}
+.service__head h3, 
+.service__head h5{
+    color: #040304ef;
+}
+
+.service__list li {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.service__list p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.service:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+
+/* OLD CSS */
+/* .logo1{
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -14,7 +74,7 @@
 
 .service{
     background: var(--color-bg-variant);
-    border-radius: 0 0 2rem 2rem;
+    border-radius: 1.5rem 1.5rem 2rem 2rem;
     border: 1px solid var(--color-primary);
     height: fit-content;
     transition: var(--transition);
@@ -30,7 +90,7 @@
 .service__head{
     background: rgba(224, 224, 224, 0.519);
     padding: 2rem;
-    border-radius: 0 0 2rem 2rem;
+    border-radius: 1.5rem 1.5rem 2rem 2rem;
     box-shadow: 0 2rem 1 rem rgba(0, 0, 0, 0.1);
 }
 
@@ -46,7 +106,7 @@
 }
 
 .service__list{
-    padding: 2rem;
+    padding: 2rem 4rem;
 }
 
 .service__list li{
@@ -65,21 +125,33 @@
 }
 
 
-/* <--Tablets--> */
-@media  screen and (max-width: 1024px) {
-    .services__container{
+
+ */
+
+
+
+
+
+/* Tablets */
+@media screen and (max-width: 1024px) {
+    .services__container {
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }
-    .service{
+    .service {
+        min-height: auto;
         height: auto;
     }
 }
 
-/* <--Mobiles--> */
-@media  screen and (max-width: 600px) {
-    .services__container{
+/* Mobiles */
+@media screen and (max-width: 600px) {
+    .services__container {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+    }
+    .service {
+        min-height: auto;
+        height: auto;
     }
 }

@@ -17,9 +17,13 @@ const About = () => {
         </div>
         <div className='about_content'>
           <p>
-          I am a passionate final year Computer Science and Engineering student at Graphic Era(Deemed) University with a profound enthusiasm for solving real-world challenges through technology. My expertise spans a wide range of cutting-edge frameworks, including React, TensorFlow, Keras, NLP (Natural Language Processing), and deep learning. These frameworks, along with Pytorch and OpenCV, have allowed me to delve into the exciting world of machine learning and artificial intelligence, empowering me to tackle complex challenges with data-driven solutions. In addition to my strong technical skills, I hold certifications as an AWS Certified Cloud Practitioner and Solutions Architect. Demonstrating excellence in various subjects, I have maintained an outstanding record throughout my academic journey.<br></br>
-          As I present my portfolio, I am excited to share my projects, experiences, and the impact of my work in various domains. Collaborating with like-minded individuals and organizations on innovative ventures is something I eagerly look forward to. Let's create something amazing together!
+          I am a passionate Software Development Engineer (SDE) with a Computer Science and Engineering degree from Graphic Era (Deemed) University.<br></br><br></br>
 
+          My journey in technology is driven by a profound enthusiasm for solving real-world challenges through innovative solutions. I possess hands-on expertise in web development technologies like React.js, Node.js, Express, and MongoDB, as well as experience in building full-stack applications. Additionally, I have worked on machine learning and AI projects using cutting-edge frameworks such as CNN, TensorFlow, Keras, and PyTorch. My skills extend to Natural Language Processing (NLP), OpenCV, and emerging tools like Ollama, allowing me to develop both front-end and back-end systems as well as data-driven AI solutions.<br></br><br></br>
+
+          In addition to my development skills, I am an AWS Certified Cloud Practitioner and Solutions Architect, bringing cloud computing expertise into my projects.<br></br><br></br>
+
+          As I present my portfolio, I’m excited to showcase a diverse range of projects and experiences that reflect my growth as a software engineer and web developer. I look forward to collaborating with like-minded professionals and organizations on innovative ventures. Let’s create something amazing together!
           </p>
           <div className = "button_contact">
           <a href="#contact" className= 'btn btn-primary'>Contact Me</a>

@@ -9,18 +9,14 @@ const Header = () => {
     <header id = "head">
       <div className="container header__container">
 
-        <h5>Hello I'm</h5>
+        <h5>Hey there, I'm</h5>
         <h1>Bharat Upadhyay</h1>
-        <h5 className= "text-light">An ML Enthusiast and Frontend Developer</h5>
+        <h5 className= "text-light">A Software Developer from India</h5>
         <CTA/>
         <HeaderSocials/>
-
         <div className='me'>
           <img src = {ME} alt = ""/>
         </div>
-
-
-
         <a href = "#contact" className='scroll__down'>Scroll Down</a>
 
       </div>

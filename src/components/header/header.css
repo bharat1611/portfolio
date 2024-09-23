@@ -1,57 +1,51 @@
 header{
-    height: 100vh;
+    min-height: 70vh;
     overflow: hidden;
     padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
 }
 
 .header__container{
     text-align: center;
-    height: 100%;
+    flex-grow: 1;
     position: relative;
 }
 
-/* CTA */
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    margin-top: 2rem;
+}
 
+.me{
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 21rem;
+    height: 21rem;
+    margin: 4rem auto 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.header__socials::after{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+/* CTA */
 .cta{
     margin-top: 2.5rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
 }
-
-/* Header Socials */
-
-.header__socials{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap:0.8rem;
-    position: absolute;
-    left : 0;
-    bottom: 3rem;
-
-}
-.header__socials::after{
-    content : '';
-    width: 1px;
-    height: 2rem;
-    background: var(--color-primary);
-
-}
-
-
-/* ME */
-.me{
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 21rem;
-    height: 21rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 12rem 12rem;
-    overflow: hidden;
-}
-
 
 
 /* Scroll Down */
@@ -64,31 +58,26 @@ header{
     font-size: 0.9rem;
 }
 
-
-/* <--Tablets--> */
-@media  screen and (max-width: 1024px) {
+/* Tablets */
+@media screen and (max-width: 1024px) {
     header{
-        height: 80vh;
-        bottom:0;
-        overflow:scroll;
+        min-height: 80vh;
     }
 }
 
-/* <--Mobiles--> */
-@media  screen and (max-width: 600px) {
-
+/* Mobiles */
+@media screen and (max-width: 600px) {
     header{
-        height: 100vh;
+        min-height: 100vh;
     }
+
     .header__socials, .scroll__down{
-        display:none;
+        display: none;
     }
 }
 
-
-@media  screen and (max-width: 376px) {
-
+@media screen and (max-width: 376px) {
     header{
-        height: 120vh;
+        min-height: 120vh;
     }
 }
